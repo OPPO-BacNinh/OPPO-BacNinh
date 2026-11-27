@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kết quả kênh TikTok PG</title>
+<style>
+:root{--bg:#f4f4f5;--card:#fff;--ink:#14171b;--mut:#6b7280;--line:#e6e7ea;--ok:#0f8a4b;--okb:#e5f5ec;--bad:#d4183d;--badb:#fdecef;--tk1:#fe2c55;--tkc:#25f4ee}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#0b0b0c;color:#fff;padding:12px 16px;box-shadow:0 2px 0 var(--tkc),0 4px 0 var(--tk1)}
+header b{font-size:17px}header small{display:block;color:#b8b8be;font-size:12px}
+.wrap{max-width:960px;margin:0 auto;padding:0 12px 40px}
+.hero{margin-top:12px;border-radius:18px;padding:18px 16px;color:#fff;background:radial-gradient(120% 90% at 100% 0,rgba(254,44,85,.35),transparent 55%),radial-gradient(110% 90% at 0 100%,rgba(37,244,238,.28),transparent 55%),#0b0b0c}
+.hero .t{font-size:23px;font-weight:900;line-height:1.2;text-shadow:-2px -1px 0 var(--tkc),2px 1px 0 var(--tk1)}
+.hero p{margin:8px 0 10px;color:#d7d7db;font-size:14px}
+.hero a{display:inline-block;border:1px solid #3a3a40;background:rgba(255,255,255,.06);color:#fff;border-radius:99px;padding:7px 12px;font-size:12.5px;font-weight:700;text-decoration:none}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-top:12px}
+.card h2{margin:0 0 4px;font-size:16px}.sub{color:var(--mut);font-size:12.5px;margin-bottom:8px}
+.loc{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 10px}
+select{font-size:14px;padding:7px 10px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:8px}
+.stat{background:#f6f7f8;border-radius:12px;padding:10px}.stat small{display:block;color:var(--mut);font-size:12px}.stat b{font-size:20px;font-variant-numeric:tabular-nums}
+.cuon{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{padding:8px 6px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}th{color:var(--mut);font-weight:600;font-size:12.5px}
+th:first-child,td:first-child{text-align:left;white-space:normal}td.xau{color:var(--bad);font-weight:700}
+td.nx{text-align:left;white-space:normal;min-width:170px;font-size:12.5px}
+details.nhom{border:1px solid var(--line);border-radius:12px;margin-top:8px}
+details.nhom>summary{list-style:none;cursor:pointer;padding:10px 12px;font-weight:800}
+details.nhom>summary::-webkit-details-marker,details.pg>summary::-webkit-details-marker{display:none}
+details.nhom>summary small{display:block;font-weight:500;color:var(--mut);font-size:12.5px}
+details.pg{border-top:1px solid var(--line);margin:0 12px}
+details.pg>summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:8px;padding:9px 0}
+details.pg>summary b::before{content:'▸ ';color:var(--mut)}details.pg[open]>summary b::before{content:'▾ '}
+details.pg .so{font-size:12.5px;font-weight:700;white-space:nowrap}
+.tot .so{color:var(--ok)}.yeu .so{color:var(--bad)}
+.vrow{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:7px 0 7px 10px;border-left:3px solid var(--line);margin:0 0 8px;font-size:13px}
+.vrow.tot{border-left-color:var(--ok)}.vrow.yeu{border-left-color:var(--bad)}
+.vrow a{color:var(--tk1);font-weight:700;text-decoration:none}.vrow .sl{color:var(--mut);white-space:nowrap}.vrow .nx{grid-column:1/-1}
+.trong{color:var(--mut);padding:10px 0}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:12px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;border-top:3px solid var(--tk1)}
+.kpi>small{color:var(--mut);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.03em}
+.kv{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap;margin:2px 0}.kv b{font-size:26px;font-variant-numeric:tabular-nums}.kv span{color:var(--mut);font-size:12.5px}
+.td{height:6px;background:#eef0f2;border-radius:9px;overflow:hidden;margin:6px 0}.td i{display:block;height:100%;background:var(--ok);border-radius:9px}
+.ck{font-size:12px;color:var(--mut);margin-bottom:6px}.ss{font-weight:700;border-radius:6px;padding:1px 5px;margin-right:2px}.ss.len{color:var(--ok);background:var(--okb)}.ss.xuong{color:var(--bad);background:var(--badb)}
+.kd{display:flex;justify-content:space-between;gap:8px;font-size:13px;padding:2px 0;border-top:1px dashed var(--line)}.kd i,.lg i{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:6px}.kd b{font-variant-numeric:tabular-nums;text-align:right}.kd small{color:var(--mut);font-weight:400}
+.lg{display:flex;gap:14px;font-size:12.5px;color:var(--mut);margin:4px 0}
+svg.bd{width:100%;min-width:560px;height:auto;display:block}svg.bd text{font-size:11px;fill:#6b7280}
+.hai{display:grid;grid-template-columns:1fr 1fr;gap:12px}.hai>.card{margin-top:12px;min-width:0}
+.xr{display:flex;align-items:center;gap:10px;padding:8px 0;border-top:1px solid var(--line)}
+.hang{flex:none;width:24px;height:24px;border-radius:7px;background:#eef0f2;display:grid;place-items:center;font-size:12px;font-weight:800}.hang.h1{background:#fde68a}.hang.h2{background:#e5e7eb}.hang.h3{background:#fed7aa}
+.xn{flex:1;min-width:0}.xn b,.xn a{display:block;font-weight:800}.xn a{color:var(--tk1);text-decoration:none}.xn small,.xs small{display:block;color:var(--mut);font-size:12px}
+.xs{text-align:right;white-space:nowrap}.xs b{font-variant-numeric:tabular-nums}.xs b.do{color:var(--bad)}
+details.xl{border:1px solid var(--line);border-radius:12px;margin-top:8px}details.xl>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:10px 12px}
+details.xl>summary::-webkit-details-marker{display:none}details.xl>summary>b{font-size:20px}details.xl>summary small{display:block;color:var(--mut);font-size:12px}
+.ic{flex:none;width:30px;height:30px;border-radius:9px;color:#fff;display:grid;place-items:center;font-weight:800}
+.xlds{padding:0 12px 10px 52px;font-size:13px;line-height:1.8}.xlds a{color:var(--tk1);font-weight:700;text-decoration:none}.xlds small{color:var(--mut)}
+@media(max-width:760px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.hai{grid-template-columns:1fr}}
+@media(max-width:420px){.kpis{grid-template-columns:1fr}}
+@media(max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.vrow{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><b id="tieuDe">Kết quả kênh TikTok PG</b><small id="capNhat">Đang tải…</small></header>
+<div class="wrap" id="app"></div>
+<script>
+/* Trang ket qua kenh TikTok PG — doc data/ket-qua.json do robot scripts/quet-tiktok.mjs ghi. Cham diem theo LUAT, 0 token. */
+var D = null, CH = {}, KY = 'thang', NHOM = '';
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+function so(x){ return Number(x || 0).toLocaleString('vi-VN'); }
+function ngayVN(d){ return d ? d.slice(8, 10) + '/' + d.slice(5, 7) : ''; }
+function homNay(){ return new Date(Date.now() + 7 * 3600e3).toISOString().slice(0, 10); }
+function congNgay(d, n){ var t = new Date(d + 'T00:00:00Z'); t.setUTCDate(t.getUTCDate() + n); return t.toISOString().slice(0, 10); }
+function tuoi(v){ return Math.round((Date.parse(homNay()) - Date.parse(v.d)) / 864e5); }
+function trongKy(d){
+  var hn = homNay();
+  if(KY === 'tuan'){ var thu = (new Date(hn + 'T00:00:00Z').getUTCDay() + 6) % 7; return d >= congNgay(hn, -thu) && d <= hn; }
+  if(KY === '7ngay') return d >= congNgay(hn, -6) && d <= hn;
+  if(KY === 'thang') return d.slice(0, 7) === hn.slice(0, 7);
+  return d === KY;
+}
+function bang(cot, dong, xau){
+  return '<div class="cuon"><table><tr>' + cot.map(function(c){ return '<th>' + esc(c) + '</th>'; }).join('') + '</tr>'
+    + dong.map(function(d){ return '<tr>' + d.map(function(x, j){ var cls = (xau && xau(d, j)) ? 'xau' : (j === d.length - 1 && typeof x === 'string' && j > 2 ? 'nx' : ''); return '<td class="' + cls + '">' + esc(typeof x === 'number' ? so(x) : x) + '</td>'; }).join('') + '</tr>'; }).join('') + '</table></div>';
+}
+function nhanXet(v){
+  var tl = v.n ? (v.l + v.c + v.s) / v.n * 100 : 0;
+  if(v.n > CH.cao) return 'Tương tác ' + tl.toFixed(1) + '%' + (v.c ? ' · ' + v.c + ' bình luận' : '') + ' → xem câu mở + chủ đề, dùng làm mẫu' + (v.c ? '. Nhắc PG trả lời bình luận' : '') + '.';
+  return (tl >= 5 ? 'Ít người thấy nhưng người xem thích (' + tl.toFixed(1) + '%) → 3 giây đầu chưa giữ người lướt, sửa câu mở' : 'Ít xem, ít tương tác → đổi chủ đề sát câu khách hỏi ở quầy, mở bằng vấn đề, demo máy ngay') + '.';
+}
+function dongV(v){
+  return '<div class="vrow ' + (v.n > CH.cao ? 'tot' : 'yeu') + '"><span><a href="https://www.tiktok.com/@' + encodeURIComponent(v.h) + '/video/' + encodeURIComponent(v.id) + '" target="_blank" rel="noopener">▶ Video đăng ' + ngayVN(v.d) + '</a></span><span class="sl">👁 ' + so(v.n) + ' · ❤ ' + so(v.l) + ' · 💬 ' + so(v.c) + ' · ↗ ' + so(v.s) + '</span><span class="nx">' + esc(nhanXet(v)) + '</span></div>';
+}
+function theoKenh(list, loai){
+  var G = {}, thu = [];
+  list.forEach(function(v){ if(!G[v.h]){ G[v.h] = []; thu.push(v.h); } G[v.h].push(v); });
+  var tong = function(h){ return G[h].reduce(function(a, v){ return a + v.n; }, 0); };
+  thu.sort(function(a, b){ return loai === 'tot' ? tong(b) - tong(a) : (G[b].length - G[a].length) || (tong(a) - tong(b)); });
+  return thu.map(function(h){
+    return '<details class="pg ' + loai + '"><summary><b>@' + esc(h) + ' <small style="font-weight:400;color:var(--mut)">· ' + esc(D.taiKhoan[h].nhom) + '</small></b><span class="so">' + G[h].length + ' video · ' + so(tong(h)) + ' view</span></summary>' + G[h].map(dongV).join('') + '</details>';
+  }).join('');
+}
+function ve(){
+  var nhoms = {}; Object.keys(D.taiKhoan).forEach(function(h){ nhoms[D.taiKhoan[h].nhom] = 1; });
+  var ds = D.video.filter(function(v){ return trongKy(v.d) && (!NHOM || D.taiKhoan[v.h].nhom === NHOM); });
+  var tag = ds.filter(function(v){ return v.t; });
+  var T = { view: 0, tim: 0, cmt: 0, share: 0 }; tag.forEach(function(v){ T.view += v.n; T.tim += v.l; T.cmt += v.c; T.share += v.s; });
+  var tt = T.tim + T.cmt + T.share;
+  var ngays = {}; D.video.forEach(function(v){ if(v.d.slice(0, 7) === homNay().slice(0, 7)) ngays[v.d] = 1; });
+  var opt = [['tuan', 'Tuần này'], ['7ngay', '7 ngày gần nhất'], ['thang', 'Tháng này']].concat(Object.keys(ngays).sort().reverse().map(function(d){ return [d, 'Ngày ' + ngayVN(d)]; }));
+  var h = '<div class="hero"><div class="t">Kết quả kênh PG · ' + esc(D.khuVuc) + '</div><p>Robot quét TikTok lúc 6h sáng mỗi ngày. Chỉ tính video có <b>#' + esc(D.hashtag) + '</b>. Nhận xét do máy tự chấm theo số, chưa xem nội dung video.</p>' + (CH.linkHuongDan ? '<a href="' + esc(CH.linkHuongDan) + '" target="_blank" rel="noopener">📘 Hướng dẫn PG làm kênh + 20 video</a>' : '') + '</div>';
+  h += '<div class="card loccard"><div class="loc" style="margin:0"><select onchange="KY=this.value;ve()">' + opt.map(function(o){ return '<option value="' + o[0] + '"' + (o[0] === KY ? ' selected' : '') + '>' + o[1] + '</option>'; }).join('') + '</select>'
+    + '<select onchange="NHOM=this.value;ve()"><option value="">Tất cả nhóm</option>' + Object.keys(nhoms).sort().map(function(n){ return '<option' + (n === NHOM ? ' selected' : '') + '>' + esc(n) + '</option>'; }).join('') + '</select></div>'
+    + '<div class="sub" style="margin:6px 0 0">' + (ds.length - tag.length) + ' video trong kỳ chưa gắn tag nên không được tính. Mục tiêu: ' + CH.mucTieuTuan + ' video/tuần mỗi kênh.</div></div>';
+  h += tongQuan();
+  // bang theo nhom
+  var G = {};
+  Object.keys(D.taiKhoan).forEach(function(k){ var n = D.taiKhoan[k].nhom; if(NHOM && n !== NHOM) return; var g = G[n] || (G[n] = { kenh: 0, coVideo: {}, bai: 0, view: 0, tim: 0, tt: 0, chua: 0 }); g.kenh++; });
+  ds.forEach(function(v){ var g = G[D.taiKhoan[v.h].nhom]; if(v.t){ g.bai++; g.view += v.n; g.tim += v.l; g.tt += v.l + v.c + v.s; g.coVideo[v.h] = 1; } else g.chua++; });
+  var keys = Object.keys(G).sort(function(a, b){ return G[b].view - G[a].view; });
+  h += '<div class="card"><h2>Chi tiết theo nhóm (Tỉnh-Kênh)</h2>' + bang(['Nhóm', 'Kênh có video', 'Video', 'View', 'Tương tác', 'Tim', 'Chưa tag'], keys.map(function(k){ var g = G[k]; return [k, Object.keys(g.coVideo).length + '/' + g.kenh, g.bai, g.view, g.tt, g.tim, g.chua]; }), function(d, j){ return j === 6 && d[6] > 0; }) + '</div>';
+  // phan nhom video
+  var cao = tag.filter(function(v){ return v.n > CH.cao; }).sort(function(a, b){ return b.n - a.n; });
+  var thap = tag.filter(function(v){ return v.n < CH.thap && tuoi(v) >= 2; });
+  var moi = tag.filter(function(v){ return v.n < CH.thap && tuoi(v) < 2; }).length;
+  var dem = function(l){ var o = {}; l.forEach(function(v){ o[v.h] = 1; }); return Object.keys(o).length; };
+  h += '<div class="card"><h2>Phân nhóm video</h2><div class="sub">Bấm tên kênh để xem từng video.' + (moi ? ' ' + moi + ' video mới đăng dưới 2 ngày chưa xét.' : '') + '</div>'
+    + '<details class="nhom" open><summary style="color:var(--ok)">🔥 Trên ' + so(CH.cao) + ' view · ' + cao.length + ' video · ' + dem(cao) + ' kênh<small>Học cách làm: câu mở, chủ đề, cách quay. Nhân bản cho cả nhóm.</small></summary>' + (theoKenh(cao, 'tot') || '<div class="trong" style="margin:0 12px">Chưa có video nào.</div>') + '</details>'
+    + '<details class="nhom" open><summary style="color:var(--bad)">🧊 Dưới ' + so(CH.thap) + ' view · ' + thap.length + ' video · ' + dem(thap) + ' kênh<small>Đăng từ 2 ngày trở lên. Kênh có nhiều video nhất đứng đầu, kèm trước.</small></summary>' + (theoKenh(thap, 'yeu') || '<div class="trong" style="margin:0 12px">Không có video nào.</div>') + '</details></div>';
+  // danh gia tung kenh
+  var P = {};
+  tag.forEach(function(v){ var o = P[v.h] || (P[v.h] = { h: v.h, n: 0, view: 0, cao: 0, thap: 0 }); o.n++; o.view += v.n; if(v.n > CH.cao) o.cao++; else if(v.n < CH.thap && tuoi(v) >= 2) o.thap++; });
+  var soNgay = KY === 'thang' ? +homNay().slice(8) : KY === '7ngay' ? 7 : KY === 'tuan' ? ((new Date(homNay() + 'T00:00:00Z').getUTCDay() + 6) % 7) + 1 : 1;
+  var kl = function(o){ var tb = o.view / o.n;
+    if(o.cao >= 2 || (o.cao >= 1 && tb >= CH.thap)) return 'Đang làm đúng: lấy video làm mẫu cho nhóm';
+    if(o.thap >= Math.max(2, o.n * 0.6)) return 'Cần kèm: đa số video dưới ' + CH.thap + ' view, xem lại câu mở và chủ đề';
+    if(soNgay >= 7 && o.n < 3) return 'Đăng thưa: chưa đủ 3 video/tuần';
+    return 'Ổn định: thử 1 chủ đề của nhóm 🔥'; };
+  var dsP = Object.keys(P).map(function(k){ return P[k]; }).sort(function(a, b){ return (b.cao - a.cao) || (b.view / b.n - a.view / a.n); });
+  var chuaDang = Object.keys(D.taiKhoan).filter(function(k){ return (!NHOM || D.taiKhoan[k].nhom === NHOM) && !P[k]; });
+  h += '<div class="card"><h2>Đánh giá từng kênh</h2>' + bang(['Kênh', 'Video', '🔥', '🧊', 'View TB', 'Nhận định'], dsP.map(function(o){ return ['@' + o.h + ' · ' + D.taiKhoan[o.h].nhom, o.n, o.cao, o.thap, Math.round(o.view / o.n), kl(o)]; }), function(d, j){ return j === 3 && d[3] > 0 && d[3] >= d[1] * 0.6; })
+    + (chuaDang.length ? '<div class="sub" style="margin-top:8px;color:var(--bad)"><b>Chưa có video có tag trong kỳ (' + chuaDang.length + '):</b> ' + chuaDang.map(function(k){ return '@' + esc(k) + (D.taiKhoan[k].ok ? '' : ' (robot chưa đọc được)'); }).join(', ') + '</div>' : '') + '</div>';
+  document.getElementById('app').innerHTML = h;
+}
+Promise.all([
+  fetch('data/ket-qua.json?t=' + Date.now(), { cache: 'no-store' }).then(function(r){ if(!r.ok) throw 0; return r.json(); }),
+  fetch('cau-hinh.json?t=' + Date.now(), { cache: 'no-store' }).then(function(r){ return r.ok ? r.json() : {}; }).catch(function(){ return {}; })
+]).then(function(x){
+  D = x[0]; CH = { cao: x[1].nguongCao || 1000, thap: x[1].nguongThap || 300, linkHuongDan: x[1].linkHuongDan || '', mucTieuTuan: x[1].mucTieuTuan || 3, tenTinh: x[1].tenTinh || {} };
+  document.getElementById('tieuDe').textContent = 'Kết quả kênh PG · ' + D.khuVuc;
+  var t = new Date(Date.parse(D.capNhat) + 7 * 3600e3).toISOString();
+  document.getElementById('capNhat').textContent = 'Số lúc ' + t.slice(11, 16) + ' ' + ngayVN(t.slice(0, 10)) + ' · robot đọc được ' + D.docDuoc + '/' + D.luotNay + ' kênh';
+  ve();
+}).catch(function(){ document.getElementById('app').innerHTML = '<div class="card"><h2>Chưa có số</h2><div class="sub">Robot chưa chạy lần nào. Vào tab Actions của repo → "Quet TikTok PG" → Run workflow.</div></div>'; document.getElementById('capNhat').textContent = ''; });
+</script>
+<script>
+/* ===== Tong quan KV: KPI theo kenh, video theo ngay, xep hang tinh/kenh, top video, can xu ly, so sanh thang =====
+   Nhom dat theo dang TINH-KENH (vd BN-MWG). Kenh nhan: MWG, KA, IND; khac -> "Khác". */
+var KENH = ['MWG', 'KA', 'IND'], MAU = { MWG: '#0f8a4b', KA: '#e08a00', IND: '#2563eb', 'Khác': '#9ca3af' };
+function tachNhom(n){ var p = String(n || '').toUpperCase().split(/[-_ ·]+/); return { tinh: p[0] || '?', kenh: KENH.indexOf(p[1]) >= 0 ? p[1] : 'Khác' }; }
+function tenTinh(t){ return (CH.tenTinh && CH.tenTinh[t]) || t; }
+function thuTuan(d){ return (new Date(d + 'T00:00:00Z').getUTCDay() + 6) % 7; }
+function soNgayGiua(a, b){ return Math.round((Date.parse(b) - Date.parse(a)) / 864e5) + 1; }
+function khoangKy(){
+  var hn = homNay();
+  if(KY === 'tuan') return [congNgay(hn, -thuTuan(hn)), hn];
+  if(KY === '7ngay') return [congNgay(hn, -6), hn];
+  if(KY === 'thang') return [hn.slice(0, 8) + '01', hn];
+  return [KY, KY];
+}
+function khoangTruoc(k){
+  var n = soNgayGiua(k[0], k[1]);
+  if(KY === 'thang'){ var cuoiTruoc = congNgay(k[0], -1), dau = cuoiTruoc.slice(0, 8) + '01', den = congNgay(dau, n - 1); return [dau, den > cuoiTruoc ? cuoiTruoc : den]; }
+  var lui = (KY === 'tuan' || KY === '7ngay') ? 7 : 1;
+  return [congNgay(k[0], -lui), congNgay(k[1], -lui)];
+}
+function locTk(h){ return D.taiKhoan[h] && (!NHOM || D.taiKhoan[h].nhom === NHOM); }
+function videoTrong(k){ return D.video.filter(function(v){ return v.t && v.d >= k[0] && v.d <= k[1] && locTk(v.h); }); }
+function doLuong(V){
+  var o = { video: V.length, view: 0, tt: 0, tim: 0, kenh: {}, cao: 0, thap: 0 };
+  V.forEach(function(v){ o.view += v.n; o.tim += v.l; o.tt += v.l + v.c + v.s; o.kenh[v.h] = 1; if(v.n > CH.cao) o.cao++; else if(v.n < CH.thap && tuoi(v) >= 2) o.thap++; });
+  o.soKenh = Object.keys(o.kenh).length; o.tb = o.video ? Math.round(o.view / o.video) : 0; o.tl = o.view ? o.tt / o.view * 100 : 0;
+  return o;
+}
+function gon(x){ x = Number(x || 0); if(x >= 1e6) return (x / 1e6).toFixed(2).replace('.', ',') + ' tr'; if(x >= 1e4) return (x / 1e3).toFixed(1).replace('.', ',') + 'k'; return so(x); }
+function soSanh(a, b){ if(!b) return '<span class="ss">chưa có cùng kỳ</span>'; var p = (a - b) / b * 100; return '<span class="ss ' + (p >= 0 ? 'len' : 'xuong') + '">' + (p >= 0 ? '▲' : '▼') + Math.abs(p).toFixed(1).replace('.', ',') + '%</span>'; }
+function tachKenh(V){ var o = {}; KENH.concat('Khác').forEach(function(k){ o[k] = []; }); V.forEach(function(v){ o[tachNhom(D.taiKhoan[v.h].nhom).kenh].push(v); }); return o; }
+function tkTheoKenh(){ var o = {}; KENH.concat('Khác').forEach(function(k){ o[k] = 0; }); Object.keys(D.taiKhoan).forEach(function(h){ if(locTk(h)) o[tachNhom(D.taiKhoan[h].nhom).kenh]++; }); return o; }
+function dongKenh(cb){ var TK = tkTheoKenh(); return KENH.concat('Khác').filter(function(k){ return TK[k]; }).map(function(k){ return '<div class="kd"><span><i style="background:' + MAU[k] + '"></i>' + k + '</span><b>' + cb(k) + '</b></div>'; }).join(''); }
+function the(ten, so1, phu, cungKy, kenhHtml, tienDo){
+  return '<div class="kpi"><small>' + ten + '</small><div class="kv"><b>' + so1 + '</b>' + (phu ? '<span>' + phu + '</span>' : '') + '</div>'
+    + (tienDo != null ? '<div class="td"><i style="width:' + Math.min(100, tienDo) + '%"></i></div>' : '')
+    + '<div class="ck">' + cungKy + '</div>' + kenhHtml + '</div>';
+}
+function bieuDo(k, canNgay){
+  var dau = k[0], cuoi = k[1];
+  if(soNgayGiua(dau, cuoi) < 7) dau = congNgay(cuoi, -13);
+  var ngays = []; for(var d = dau; d <= cuoi; d = congNgay(d, 1)) ngays.push(d);
+  var V = videoTrong([dau, cuoi]), M = {};
+  V.forEach(function(v){ var kk = tachNhom(D.taiKhoan[v.h].nhom).kenh; (M[v.d] = M[v.d] || {})[kk] = ((M[v.d] || {})[kk] || 0) + 1; });
+  var max = Math.max(canNgay * 1.15, 4); ngays.forEach(function(d){ var t = 0; for(var x in (M[d] || {})) t += M[d][x]; if(t > max) max = t; });
+  var W = 720, H = 220, L = 30, B = 24, T = 14, cw = (W - L - 6) / ngays.length, bw = Math.max(4, cw * 0.62);
+  var y = function(v){ return T + (H - T - B) * (1 - v / max); };
+  var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" class="bd" role="img" aria-label="Video có tag theo ngày">';
+  [0, Math.round(max / 2), Math.round(max)].forEach(function(v){ s += '<line x1="' + L + '" x2="' + W + '" y1="' + y(v) + '" y2="' + y(v) + '" stroke="#eceef1"/><text x="' + (L - 6) + '" y="' + (y(v) + 4) + '" text-anchor="end">' + v + '</text>'; });
+  ngays.forEach(function(d, i){
+    var x = L + i * cw + (cw - bw) / 2, acc = 0, tong = 0;
+    KENH.concat('Khác').forEach(function(kk){ var n = (M[d] || {})[kk] || 0; if(!n) return; s += '<rect x="' + x.toFixed(1) + '" y="' + y(acc + n).toFixed(1) + '" width="' + bw.toFixed(1) + '" height="' + (y(acc) - y(acc + n)).toFixed(1) + '" fill="' + MAU[kk] + '"/>'; acc += n; }); tong = acc;
+    s += '<rect x="' + (L + i * cw).toFixed(1) + '" y="' + T + '" width="' + cw.toFixed(1) + '" height="' + (H - T - B) + '" fill="transparent"><title>' + ngayVN(d) + ': ' + tong + ' video</title></rect>';
+    var buoc = ngays.length > 20 ? 3 : ngays.length > 10 ? 2 : 1;
+    if(i % buoc === 0 || i === ngays.length - 1) s += '<text x="' + (L + i * cw + cw / 2).toFixed(1) + '" y="' + (H - 6) + '" text-anchor="middle">' + ngayVN(d) + '</text>';
+  });
+  if(canNgay > 0) s += '<line x1="' + L + '" x2="' + W + '" y1="' + y(canNgay) + '" y2="' + y(canNgay) + '" stroke="#d4183d" stroke-dasharray="6 5" stroke-width="1.5"/><text x="' + (L + 6) + '" y="' + (y(canNgay) - 6) + '" fill="#d4183d" style="font-weight:700">Cần ' + canNgay.toFixed(1).replace('.', ',') + ' video/ngày</text>';
+  return s + '</svg>';
+}
+function xepHang(tieuDe, khoaCua, ten, V){
+  var G = {};
+  Object.keys(D.taiKhoan).forEach(function(h){ if(!locTk(h)) return; var kk = khoaCua(h); var g = G[kk] || (G[kk] = { tk: 0, co: {}, video: 0, view: 0 }); g.tk++; });
+  V.forEach(function(v){ var g = G[khoaCua(v.h)]; g.co[v.h] = 1; g.video++; g.view += v.n; });
+  var ks = Object.keys(G).sort(function(a, b){ var pa = Object.keys(G[a].co).length / G[a].tk, pb = Object.keys(G[b].co).length / G[b].tk; return (pb - pa) || (G[b].view - G[a].view); });
+  return '<div class="card xh"><h2>' + tieuDe + '</h2><div class="sub">Xếp theo % kênh có video trong kỳ</div>' + ks.map(function(kk, i){
+    var g = G[kk], co = Object.keys(g.co).length, p = Math.round(co / g.tk * 100);
+    return '<div class="xr"><span class="hang h' + (i < 3 ? i + 1 : 0) + '">' + (i + 1) + '</span><div class="xn"><b>' + esc(ten(kk)) + '</b><small>' + co + '/' + g.tk + ' kênh có video · ' + so(g.video) + ' video</small><div class="td"><i style="width:' + p + '%;background:' + (p >= 80 ? '#0f8a4b' : p >= 50 ? '#e08a00' : '#d4183d') + '"></i></div></div><div class="xs"><b class="' + (p < 50 ? 'do' : '') + '">' + p + '%</b><small>' + gon(g.view) + ' view</small></div></div>';
+  }).join('') + '</div>';
+}
+function canXuLy(){
+  var hn = homNay(), tk = Object.keys(D.taiKhoan).filter(locTk);
+  var loi = tk.filter(function(h){ return D.taiKhoan[h].quet && !D.taiKhoan[h].ok; });
+  var ganDay = {}; D.video.forEach(function(v){ if(v.t && v.d >= congNgay(hn, -2)) ganDay[v.h] = 1; });
+  var baNgay = tk.filter(function(h){ return D.taiKhoan[h].ok && !ganDay[h]; });
+  var trongThang = {}; D.video.forEach(function(v){ if(v.t && v.d.slice(0, 7) === hn.slice(0, 7)) trongThang[v.h] = 1; });
+  var chuaVideo = tk.filter(function(h){ return D.taiKhoan[h].ok && !trongThang[h]; });
+  var muc = function(mau, ico, ds, ten, mo){ return '<details class="xl"><summary><span class="ic" style="background:' + mau + '">' + ico + '</span><b>' + ds.length + '</b><span>' + ten + '<small>' + mo + '</small></span></summary><div class="xlds">' + (ds.length ? ds.map(function(h){ return '<a href="https://www.tiktok.com/@' + encodeURIComponent(h) + '" target="_blank" rel="noopener">@' + esc(h) + '</a> <small>' + esc(D.taiKhoan[h].nhom) + '</small>'; }).join('<br>') : '<small>Không có.</small>') + '</div></details>'; };
+  return '<div class="card"><h2>Theo dõi và cần xử lý</h2><div class="sub">Leader xử lý mỗi sáng sau khi robot chạy. Bấm từng mục để xem danh sách kênh. PG chưa có kênh theo dõi ở sheet nội bộ.</div>'
+    + muc('#d4183d', '!', loi, 'Link lỗi / kênh riêng tư', 'Robot không đọc được: kiểm link, mở công khai')
+    + muc('#e08a00', '⏱', baNgay, '3 ngày chưa đăng video', 'Có kênh nhưng không có video gắn #' + esc(D.hashtag) + ' từ ' + ngayVN(congNgay(hn, -2)))
+    + muc('#7c3aed', '▶', chuaVideo, 'Có kênh, chưa có video trong tháng', 'Tháng ' + (+hn.slice(5, 7)) + '/' + hn.slice(0, 4)) + '</div>';
+}
+function soThang(){
+  var hn = homNay(), n = +hn.slice(8), dau = hn.slice(0, 8) + '01', cuoiTruoc = congNgay(dau, -1), dauTruoc = cuoiTruoc.slice(0, 8) + '01';
+  var denCK = congNgay(dauTruoc, n - 1); if(denCK > cuoiTruoc) denCK = cuoiTruoc;
+  var a = doLuong(videoTrong([dau, hn])), b = doLuong(videoTrong([dauTruoc, denCK])), c = doLuong(videoTrong([dauTruoc, cuoiTruoc]));
+  var th = function(d){ return 'T' + (+d.slice(5, 7)); };
+  var dong = function(ten, o, cmp){ return '<tr><td>' + ten + '</td><td>' + so(o.video) + '</td><td>' + gon(o.view) + '</td><td>' + so(o.tb) + '</td><td>' + o.soKenh + '</td><td>' + o.cao + '</td><td>' + (cmp || '') + '</td></tr>'; };
+  return '<div class="card"><h2>So sánh theo tháng</h2><div class="sub">Tháng này chạy so cùng kỳ (cùng số ngày) tháng trước</div><div class="cuon"><table><tr><th>Tháng</th><th>Video</th><th>View</th><th>View TB</th><th>Kênh có video</th><th>🔥</th><th>View so cùng kỳ</th></tr>'
+    + dong(th(hn) + ' (1–' + n + ')', a, soSanh(a.view, b.view)) + dong(th(dauTruoc) + ' (1–' + (+denCK.slice(8)) + ')', b) + dong(th(dauTruoc) + ' cả tháng', c) + '</table></div>'
+    + '<div class="sub" style="margin-top:8px">Robot giữ số 62 ngày. View của video cũ vẫn tăng theo thời gian, nên tháng trước thường cao hơn khi so cùng kỳ.</div></div>';
+}
+function tongQuan(){
+  var k = khoangKy(), kt = khoangTruoc(k), soNgay = soNgayGiua(k[0], k[1]);
+  var V = videoTrong(k), Vt = videoTrong(kt), a = doLuong(V), b = doLuong(Vt), VK = tachKenh(V), TK = tkTheoKenh();
+  var tongTk = Object.keys(D.taiKhoan).filter(locTk).length, mt = CH.mucTieuTuan;
+  var mucTieu = Math.round(tongTk * mt * soNgay / 7), canNgay = tongTk * mt / 7;
+  var ck = function(x, y){ if(!y) return 'Chưa có số cùng kỳ ' + ngayVN(kt[0]) + (kt[0] !== kt[1] ? '–' + ngayVN(kt[1]) : ''); return soSanh(x, y) + ' cùng kỳ ' + ngayVN(kt[0]) + (kt[0] !== kt[1] ? '–' + ngayVN(kt[1]) : '') + ': ' + gon(y); };
+  var h = '<div class="kpis">'
+    + the('Video đăng mới', so(a.video), '/ ' + so(mucTieu) + ' mục tiêu', ck(a.video, b.video), dongKenh(function(kk){ return so(VK[kk].length); }), mucTieu ? a.video / mucTieu * 100 : 0)
+    + the('Lượt xem', gon(a.view), 'view', ck(a.view, b.view), dongKenh(function(kk){ var o = doLuong(VK[kk]); return gon(o.view) + ' <small>TB ' + so(o.tb) + '</small>'; }))
+    + the('View TB / video', so(a.tb), 'view', ck(a.tb, b.tb), dongKenh(function(kk){ return so(doLuong(VK[kk]).tb) + ' <small>' + VK[kk].length + ' video</small>'; }))
+    + the('Tương tác', a.tl.toFixed(1).replace('.', ',') + '%', so(a.tt) + ' tim, bình luận, chia sẻ', 'cùng kỳ: ' + b.tl.toFixed(1).replace('.', ',') + '%', dongKenh(function(kk){ return doLuong(VK[kk]).tl.toFixed(1).replace('.', ',') + '%'; }))
+    + the('Kênh hoạt động', a.soKenh, '/ ' + tongTk + ' kênh', 'cùng kỳ: ' + b.soKenh + ' kênh', dongKenh(function(kk){ return doLuong(VK[kk]).soKenh + '/' + TK[kk] + ' <small>có video</small>'; }), tongTk ? a.soKenh / tongTk * 100 : 0)
+    + the('Video tốt / yếu', a.cao + ' 🔥', 'trên ' + so(CH.cao) + ' · ' + a.thap + ' 🧊 dưới ' + so(CH.thap), 'cùng kỳ: ' + b.cao + ' 🔥', dongKenh(function(kk){ var o = doLuong(VK[kk]); return o.cao + ' 🔥 · ' + o.thap + ' 🧊'; }))
+    + '</div>';
+  h += '<div class="card"><h2>Video đăng theo ngày</h2><div class="sub">Video gắn #' + esc(D.hashtag) + ' theo ngày đăng · màu theo kênh · đường đứt = mức cần mỗi ngày (' + mt + ' video/tuần/kênh)</div><div class="lg">' + KENH.map(function(kk){ return '<span><i style="background:' + MAU[kk] + '"></i>' + kk + '</span>'; }).join('') + '</div>' + '<div class="cuon">' + bieuDo(k, canNgay) + '</div></div>';
+  h += '<div class="hai">' + xepHang('Theo kênh', function(x){ return tachNhom(D.taiKhoan[x].nhom).kenh; }, function(x){ return x; }, V)
+    + xepHang('Theo tỉnh', function(x){ return tachNhom(D.taiKhoan[x].nhom).tinh; }, tenTinh, V) + '</div>';
+  var top = V.slice().sort(function(x, y){ return y.n - x.n; }).slice(0, 6);
+  h += '<div class="card"><h2>Top video trong kỳ</h2>' + (top.length ? top.map(function(v, i){ return '<div class="xr"><span class="hang h' + (i < 3 ? i + 1 : 0) + '">' + (i + 1) + '</span><div class="xn"><a href="https://www.tiktok.com/@' + encodeURIComponent(v.h) + '/video/' + encodeURIComponent(v.id) + '" target="_blank" rel="noopener">@' + esc(v.h) + '</a><small>' + esc(D.taiKhoan[v.h].nhom) + ' · đăng ' + ngayVN(v.d) + '</small></div><div class="xs"><b>' + so(v.n) + '</b><small>' + so(v.l) + ' tim · ' + so(v.c) + ' bl</small></div></div>'; }).join('') : '<div class="trong">Chưa có video trong kỳ.</div>') + '</div>';
+  h += '<div class="hai">' + canXuLy() + soThang() + '</div>';
+  return h;
+}
+</script>
+</body>
+</html>
